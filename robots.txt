@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /wp-json/
+Disallow: /xmlrpc.php
+Disallow: /readme.html
+Disallow: /*?
+Disallow: /?s=
+Allow: /*.css
+Allow: /*.js
+Host: renkid.beget.tech
+Sitemap: http://renkid.beget.tech/wp-sitemap.xml
+
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+# ---------------------------
+# END YOAST BLOCK
